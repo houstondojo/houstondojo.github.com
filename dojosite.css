@@ -1,0 +1,25 @@
+body {
+	background-image : url('belt.jpg');
+	background-repeat : no-repeat;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+table.eventTable {
+	width : 500px;
+}
+
+div.content {
+	position : fixed;
+	top : 150px;
+	left : 250px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-color : #EFEFEF;
+	border-style : solid;
+	padding : 10px;
+}
+
+div.event {
+	padding : 10px;
+	background-color : #EFEFEF;
+}
