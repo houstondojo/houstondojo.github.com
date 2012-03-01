@@ -1,25 +1,28 @@
 body {
-	background-image : url('belt.jpg');
-	background-repeat : no-repeat;
+	background-image: url('belt.jpg');
+	background-repeat: no-repeat;
 	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-
-table.eventTable {
-	width : 500px;
+div.page {
+	margin-right: auto;
+	margin-left: 250px;
+	margin-top: 150px;
+	width: 60%;
 }
-
 div.content {
-	position : fixed;
-	top : 150px;
-	left : 250px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	border-color : #EFEFEF;
-	border-style : solid;
-	padding : 10px;
+	border-color: #EFEFEF;
+	border-style: solid;
+	padding: 10px;
 }
-
 div.event {
-	padding : 10px;
-	background-color : #EFEFEF;
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+img.logo {
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
